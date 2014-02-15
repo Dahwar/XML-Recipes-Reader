@@ -1,0 +1,24 @@
+.list-view:focused {
+  -fx-background-color: transparent ,-fx-box-border,-fx-control-inner-background;
+  -fx-background-insets: -1.4, 0, 1;
+  -fx-background-radius: 1.4, 0, 0;
+  -fx-padding: 1;
+}
+
+.list-cell {
+    -fx-padding: 0 0 0 5;
+}
+
+.list-cell:even {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: black;
+}
+.list-cell:odd {
+    -fx-background-color: #F2F2F2;
+    -fx-text-fill: black;
+}
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-border-color: #919191;
+}

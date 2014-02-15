@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-1.0" minWidth="-1.0" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="france.uha.ensisa.fl.xmlrecipes.SampleController">
+  <children>
+    <MenuBar prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem disable="false" mnemonicParsing="false" onAction="#chooseXML" text="Choose a XML file">
+              <accelerator>
+                <KeyCodeCombination alt="DOWN" code="C" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+              </accelerator>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit">
+              <accelerator>
+                <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+              </accelerator>
+            </MenuItem>
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <TextField fx:id="xmlFilePath" disable="true" layoutY="44.0" prefHeight="24.0" prefWidth="713.0" visible="true" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="43.0" />
+    <BorderPane prefHeight="511.0" prefWidth="800.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="91.0">
+      <center>
+        <ScrollPane fitToHeight="false" fitToWidth="true" hbarPolicy="AS_NEEDED" maxHeight="-1.0" maxWidth="-1.0" prefHeight="455.0" prefWidth="635.0" vbarPolicy="AS_NEEDED">
+          <content>
+            <BorderPane prefHeight="-1.0" prefWidth="-1.0">
+              <center>
+                <VBox fx:id="stepsList" focusTraversable="false" prefHeight="-1.0" prefWidth="-1.0" />
+              </center>
+            </BorderPane>
+          </content>
+        </ScrollPane>
+      </center>
+      <left>
+        <ListView fx:id="ingredientsList" disable="false" focusTraversable="false" orientation="VERTICAL" prefHeight="459.0" prefWidth="190.0" visible="true" />
+      </left>
+      <top>
+        <VBox alignment="CENTER" prefHeight="106.0" prefWidth="800.0" spacing="10.0">
+          <children>
+            <Label fx:id="recipeTitle" text="" wrapText="true" />
+            <Label fx:id="makingTime" text="" wrapText="true" />
+            <Label fx:id="waitingTime" text="" />
+            <Label fx:id="cookingTime" text="" wrapText="true" />
+          </children>
+        </VBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

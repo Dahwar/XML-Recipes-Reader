@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<recette>
+	<title>Recette 1</title>
+	<makingTime>30 min</makingTime>
+	<waitingTime>2 h</waitingTime>
+	<cookingTime>1 h</cookingTime>
+	<ingredients>
+		<ingredient>
+			<name>Poulet</name>
+			<quantity>200</quantity>
+			<unit>g</unit>
+		</ingredient>
+		<ingredient>
+			<name>Lait</name>
+			<quantity>500</quantity>
+			<unit>ml</unit>
+		</ingredient>
+		<ingredient>
+			<name>Riz</name>
+			<quantity>100</quantity>
+			<unit>g</unit>
+		</ingredient>
+		<ingredient>
+			<name>Ananas</name>
+			<quantity>5</quantity>
+			<unit>tranche(s)</unit>
+		</ingredient>
+		<ingredient>
+			<name>Patate</name>
+			<quantity>3</quantity>
+			<unit>kg</unit>
+		</ingredient>
+	</ingredients>
+	<groups>
+		<group>
+			<title>Pate</title>
+			<step>Préparer la pâte.</step>
+			<step>Laisser la reposer.</step>
+		</group>
+		<group>
+			<title>Cuisson</title>
+			<step>Cuire le poulet.</step>
+			<step>Laisser reposer 30min. La je vais faire une phrase trèèèèèèèèèèèèèèèèèèès longue, afin de voir si le wrap du texte marche comme je le souhaite ! Ce qui est normalement le cas puisque j'ai fait le test avec une autre phrase, mais qui n'était pas jolie ! :)</step>
+			<step>Manger !</step>
+		</group>
+		<group>
+			<title>Laver</title>
+			<step>Laver toutes les assiettes.</step>
+		</group>
+		<group>
+			<step>Je teste une ligne sans aucun titre pour le groupe de la recette.</step>
+			<step>On va voir si ça marche.</step>
+		</group>
+		<group>
+			<step>Je remets un groupe sans titre encore.</step>
+		</group>
+		<group>
+			<title>Paf ! Un groupe avec un titre de nouveau, mais sans etape ce coup ci ? Oo</title>
+		</group>
+		<group>
+			<step>Terminons par un groupe sans titre, juste pour voir :)</step>
+		</group>
+	</groups>
+</recette>
