@@ -46,7 +46,7 @@
       <top>
         <VBox alignment="CENTER" prefHeight="106.0" prefWidth="800.0" spacing="10.0">
           <children>
-            <Label fx:id="recipeTitle" text="" wrapText="true" />
+            <Label fx:id="recipeTitle" styleClass="label-bold" text="" wrapText="true" />
             <Label fx:id="makingTime" text="" wrapText="true" />
             <Label fx:id="waitingTime" text="" />
             <Label fx:id="cookingTime" text="" wrapText="true" />

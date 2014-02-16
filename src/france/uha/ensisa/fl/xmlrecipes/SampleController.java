@@ -62,6 +62,7 @@ public class SampleController implements Initializable {
                 if(!s.startsWith("null")) {
                     Label l = new Label(i + ". " + s);
                     l.setWrapText(true);
+                    l.getStyleClass().add("label-bold");
                     this.stepsList.getChildren().add(l);
                 }
                 int j = 1;
